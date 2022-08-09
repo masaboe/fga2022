@@ -1,0 +1,148 @@
+|--- Age <= 0.63
+|   |--- EstimatedSalary <= 0.61
+|   |   |--- Age <= -0.16
+|   |   |   |--- class: 0
+|   |   |--- Age >  -0.16
+|   |   |   |--- EstimatedSalary <= -0.06
+|   |   |   |   |--- class: 0
+|   |   |   |--- EstimatedSalary >  -0.06
+|   |   |   |   |--- EstimatedSalary <= 0.40
+|   |   |   |   |   |--- EstimatedSalary <= 0.03
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- EstimatedSalary >  0.03
+|   |   |   |   |   |   |--- EstimatedSalary <= 0.26
+|   |   |   |   |   |   |   |--- EstimatedSalary <= 0.08
+|   |   |   |   |   |   |   |   |--- EstimatedSalary <= 0.06
+|   |   |   |   |   |   |   |   |   |--- Age <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Age >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- Age <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- Age >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- EstimatedSalary >  0.06
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- EstimatedSalary >  0.08
+|   |   |   |   |   |   |   |   |--- EstimatedSalary <= 0.11
+|   |   |   |   |   |   |   |   |   |--- Age <= 0.24
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- Age >  0.24
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- EstimatedSalary >  0.11
+|   |   |   |   |   |   |   |   |   |--- Age <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- EstimatedSalary <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- EstimatedSalary >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- Age >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- EstimatedSalary >  0.26
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- EstimatedSalary >  0.40
+|   |   |   |   |   |--- class: 1
+|   |--- EstimatedSalary >  0.61
+|   |   |--- EstimatedSalary <= 1.85
+|   |   |   |--- EstimatedSalary <= 1.10
+|   |   |   |   |--- class: 1
+|   |   |   |--- EstimatedSalary >  1.10
+|   |   |   |   |--- EstimatedSalary <= 1.36
+|   |   |   |   |   |--- Age <= -0.46
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Age >  -0.46
+|   |   |   |   |   |   |--- EstimatedSalary <= 1.24
+|   |   |   |   |   |   |   |--- Age <= -0.36
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- Age >  -0.36
+|   |   |   |   |   |   |   |   |--- Age <= 0.19
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Age >  0.19
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- EstimatedSalary >  1.24
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- EstimatedSalary >  1.36
+|   |   |   |   |   |--- EstimatedSalary <= 1.78
+|   |   |   |   |   |   |--- Age <= -1.10
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- Age >  -1.10
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- EstimatedSalary >  1.78
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- EstimatedSalary >  1.85
+|   |   |   |--- class: 1
+|--- Age >  0.63
+|   |--- EstimatedSalary <= -0.81
+|   |   |--- EstimatedSalary <= -1.37
+|   |   |   |--- EstimatedSalary <= -1.39
+|   |   |   |   |--- class: 1
+|   |   |   |--- EstimatedSalary >  -1.39
+|   |   |   |   |--- Age <= 0.73
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Age >  0.73
+|   |   |   |   |   |--- class: 0
+|   |   |--- EstimatedSalary >  -1.37
+|   |   |   |--- class: 1
+|   |--- EstimatedSalary >  -0.81
+|   |   |--- Age <= 1.42
+|   |   |   |--- EstimatedSalary <= 0.45
+|   |   |   |   |--- Age <= 1.03
+|   |   |   |   |   |--- EstimatedSalary <= -0.42
+|   |   |   |   |   |   |--- EstimatedSalary <= -0.63
+|   |   |   |   |   |   |   |--- Age <= 0.78
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- Age >  0.78
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- EstimatedSalary >  -0.63
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- EstimatedSalary >  -0.42
+|   |   |   |   |   |   |--- Age <= 0.88
+|   |   |   |   |   |   |   |--- EstimatedSalary <= 0.20
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- EstimatedSalary >  0.20
+|   |   |   |   |   |   |   |   |--- Age <= 0.73
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- Age >  0.73
+|   |   |   |   |   |   |   |   |   |--- EstimatedSalary <= 0.32
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- EstimatedSalary >  0.32
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- Age >  0.88
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Age >  1.03
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- EstimatedSalary >  0.45
+|   |   |   |   |--- EstimatedSalary <= 0.66
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- EstimatedSalary >  0.66
+|   |   |   |   |   |--- EstimatedSalary <= 1.33
+|   |   |   |   |   |   |--- EstimatedSalary <= 1.27
+|   |   |   |   |   |   |   |--- Age <= 0.83
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Age >  0.83
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- EstimatedSalary >  1.27
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- EstimatedSalary >  1.33
+|   |   |   |   |   |   |--- EstimatedSalary <= 1.82
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- EstimatedSalary >  1.82
+|   |   |   |   |   |   |   |--- Age <= 1.32
+|   |   |   |   |   |   |   |   |--- EstimatedSalary <= 2.14
+|   |   |   |   |   |   |   |   |   |--- EstimatedSalary <= 2.03
+|   |   |   |   |   |   |   |   |   |   |--- Age <= 1.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- Age >  1.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- EstimatedSalary >  2.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- EstimatedSalary >  2.14
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- Age >  1.32
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |--- Age >  1.42
+|   |   |   |--- EstimatedSalary <= -0.74
+|   |   |   |   |--- Age <= 2.12
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Age >  2.12
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- EstimatedSalary >  -0.74
+|   |   |   |   |--- class: 1
